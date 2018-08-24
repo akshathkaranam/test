@@ -30,6 +30,18 @@
 			<id>spring.test-mvc</id>
 			<url>http://repo.springsource.org/libs-milestone</url>
 		</repository>
+		<repository>
+                        <id>central</id>
+                        <url>http://172.31.11.72:8082/nexus/repository/ProjectAksAno</url>
+         		<snapshots>
+            			<enabled>true</enabled>
+            			<updatePolicy>always</updatePolicy>
+        		</snapshots>
+        		<releases>
+            			<enabled>true</enabled>
+            			<updatePolicy>daily</updatePolicy>
+        		</releases>
+    		</repository>
 	</repositories>
 	<build>
 		<plugins>
